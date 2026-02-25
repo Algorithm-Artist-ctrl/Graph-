@@ -3,13 +3,11 @@ class GraphusingEdgeList:
     def __init__(self):
         self.v=[]
         self.edge=[]
-    
     def add_vertex (self,vertex):
         if vertex not in self.v:
             self.v.append(vertex)
         else:
             print(f"{vertex} already exist")
-    
     def add_edge (self,source,destination):
         if source in self.v and destination in self.v :
             edge=(source,destination)
