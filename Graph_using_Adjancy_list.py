@@ -13,7 +13,6 @@ class GraphUsingAdjancyList:
             #self.edge[source].append(destination,weight)
             #self.edge[source].append((destination, weight))
             self.edge[source].append((destination, weight))
-            
         else:
             print("one or both are not found")
     def display(self):
