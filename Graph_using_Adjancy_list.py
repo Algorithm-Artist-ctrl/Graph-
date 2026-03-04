@@ -10,7 +10,6 @@ class GraphUsingAdjancyList:
             print("vertext already exist")
     def add_edge(self,source,destination,weight=1):
         if source in self.v and destination in self.v:
-            #self.edge[source].append(destination,weight)
             self.edge[source].append((destination, weight))
         else:
             print("one or both are not found")
