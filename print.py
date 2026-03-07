@@ -4,7 +4,7 @@ def create_graph(edges, n):
         graph[u].append(v)
         graph[v].append(u) 
     return graph
-edges = [(0, 1), (0, 2), (1, 3), (2, 4)]
+edges = [(0, 1), (0, 2), (1, 3)]
 n = 5
 graph = create_graph(edges, n)
 for node in graph:
